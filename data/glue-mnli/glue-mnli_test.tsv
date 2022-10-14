@@ -1,0 +1,10 @@
+premise: My own little corner of the world, policy wonking, is an example. [SEP] hypothesis: An example is birdwatching.	contradiction
+premise: Today, nothing remains except the foundations. [SEP] hypothesis: The rest was destroyed centuries ago.	neutral
+premise: LSC set a deadline of October 1, 1998, for submission of state planning reports. [SEP] hypothesis: LSC set a deadline to submit state reports to make their job easier	neutral
+premise: oh  that's accommodating [SEP] hypothesis: That is disruptive.	contradiction
+premise: The Throne Room is one of a series of apartments built during the reign of Charles II, though it was originally designed as a guard room that screened entrants to the private chambers beyond. [SEP] hypothesis: The Throne Room is available for tours daily.	neutral
+premise: so Eric what do you think um [SEP] hypothesis: Do you have a brain, Eric?	contradiction
+premise: you know we keep a couple hundred dollars um if that much charged on those which isn't too bad it's just your normal [SEP] hypothesis: We have money on there, which isn't great	contradiction
+premise: I guess history repeats itself, Jane. [SEP] hypothesis: I truly think the prior situation shows history repeats itself.	neutral
+premise: Waterloo. [SEP] hypothesis: In the Battle of Waterloo.	entailment
+premise: will never be doused (Brit Hume, Fox News Sunday ; Tony Blankley, Late Edition ; Robert Novak, Capital Gang ; Tucker Carlson, The McLaughlin Group ). The middle way is best expressed by Howard Kurtz (NBC's Meet the Press )--he scolds Brill for undisclosed campaign contributions and for overstretching his legal case against Kenneth Starr but applauds him for casting light on the media. [SEP] hypothesis: The man was criticized for not fully disclosing contributions to the campaign.	entailment
