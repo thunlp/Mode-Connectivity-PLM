@@ -22,17 +22,17 @@ pip install -r requirements.txt
 
 ## Dataset and Checkpoint Preparation
 
-#### Prepare GLUE and SuperGLUE
+#### Prepare Datasets
 
-We mainly use GLUE and SuperGLUE datasets in experiments, and the data are specially prepared instead of using raw dataset. The datasets of related tasks can be downloaded [here](...). Please put the datasets under `./data`. We have prepared some data as example, but they are not complete, just for showing the format. Make sure `[task_name]_train.tsv`, `[task_name]_dev.tsv` and `[task_name]_test.tsv` can be found under each dataset folder.
+We mainly use GLUE and SuperGLUE datasets in experiments, and the data are specially prepared instead of using raw dataset. The datasets of related tasks can be downloaded [here](https://drive.google.com/drive/folders/1kxGRapy43Gf_0-Nuo1QgYmyo2cRg3NmT?usp=sharing). Please put the datasets under `./data`. We have prepared some data as example, but they are not complete, just for showing the format. Make sure `[task_name]_train.tsv`, `[task_name]_dev.tsv` and `[task_name]_test.tsv` can be found under each task folder.
 
 #### Prepare $T5_{Base}$ Checkpoint
 
-Besides, the pretrained models of $T5_{Base}$ and $RoBERTa_{Base}$ are also needed to conduct the experiments. For $T5_{Base}$, the pre-trained model checkpoints can be downloaded [here](...). Please put the directory `pretrained_models` downloaded directly under the root folder.
+Besides, the pretrained models of $T5_{Base}$ and $RoBERTa_{Base}$ are also needed to conduct the experiments. For $T5_{Base}$, the pre-trained model checkpoints can be downloaded [here](https://drive.google.com/drive/folders/1OQLOcbgi61TI6idzKqlU47EJ30eQ29Lt?usp=sharing). Please put the directory `pretrained_models` downloaded directly under the root folder.
 
 #### Prepare $RoBERTa_{Base}$ Checkpoint
 
-For $RoBERTa_{Base}$, we have already prepared one checkpoint under `./RoBERTa_model/checkpoint`. Other checkpoints from different pre-trained steps can be downloaded [here](...). They should also be put in the same folder as above and keep the same format.
+For $RoBERTa_{Base}$, please download checkpoints of different pre-trained steps from [here](https://drive.google.com/drive/folders/1P4H73T2VcNej0IGUbnkmZd78OGEwnM9o?usp=sharing). They should be put under `./RoBERTa_model/checkpoint` which is now empty. Keep the folder's name as `ckpt_{STEP}` and make sure `config.json` and `pytorch_model.bin` can be found under each folder.
 
 
 
@@ -178,8 +178,6 @@ Script `itp_task_boundary_finetune.sh` explores the task boundaries between two 
 
 
 ## Acknowledgments
-
-open-delta ?
 
 ......
 
