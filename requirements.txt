@@ -1,0 +1,14 @@
+datasets==2.6.1
+ipython==8.5.0
+numpy==1.23.3
+opendelta==0.2.4
+pandas==1.5.0
+pytorch_utils==0.5.5
+rouge==1.0.1
+scikit_learn==1.1.2
+scipy==1.9.2
+sympy==1.11.1
+tensorflow==2.10.0
+torch==1.12.1
+tqdm==4.64.1
+transformers==4.23.1

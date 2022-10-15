@@ -92,7 +92,7 @@ Script `itp_same_domain_finetune.sh` is an example which uses two different task
 
 Script `itp_split_data_finetune.sh` explores the effect of data overlap on mode connectivity, with two end points come from models tuned on different training data splits from same task. The adapter-tuning checkpoints can also be interpolated by changing `--method` to `adapter` and changing the two paths accordingly.
 
-Script `itp_traindata_adapter.sh` uses training data to test the knowledge change along the interpolation path, and records the whether each piece of training data is forgotten or not at each interpolated point. `--itp_on_train` controls whether training data will be used along the path instead of valid and test data. The result will be saved in `valid_data_analysis.json` for later processing.
+Script `itp_traindata_adapter.sh` uses training data to test the knowledge change along the interpolation path, and records the whether each piece of training data is forgotten or not at each interpolated point. `--itp_on_train` controls whether training data will be used along the path instead of valid and test data. The result will be saved in `valid_data_analysis.json` for later processing. To change the ends points of your interpolation, please modify 2 load_PET_paths to the checkpoint file.
 
 #### Auxiliary Scripts
 
