@@ -1,6 +1,6 @@
 # Exploring Mode Connectivity for Pre-trained Language Models
 
-We have released the code for some experiments in paper **Exploring Mode Connectivity for Pre-trained Language Models**, including the methods for adapter-tuning & fine-tuning, and the basic interpolation experiments on $T5_{Base}$ and $RoBERTa_{Base}$.
+This is the implementation of our EMNLP 2022 paper **Exploring Mode Connectivity for Pre-trained Language Models**.
 
 
 
