@@ -6,12 +6,6 @@ We have released the code for some experiments in paper **Exploring Mode Connect
 
 ## Installation
 
-Clone this repo.
-
-```bash
-git clone ...
-```
-
 This code requires PyTorch and Python 3+. Other dependencies can be installed by
 
 ```bash
@@ -69,10 +63,6 @@ To normally get the result, please first put the `transformers` package under th
 Cartography tuning mode is used for recording the raw confidence for each piece of training data. The scripts for adapter-tuning version is given in  `adapter_cartography.sh`. `--cartography` will control whether the tuning is under cartography mode.
 
 The fine-tuning version can also be trained with a few lines of revision to this script. The `cartography.json` file saved will be used as indices later to analyse knowledge change along the interpolation path.
-
-#### Curve Finding
-
-......
 
 #### Interpolation
 
