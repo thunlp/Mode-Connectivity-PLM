@@ -169,8 +169,7 @@ Script `itp_task_boundary_finetune.sh` explores the task boundaries between two 
 
 ## Acknowledgments
 
-......
-
+The authors would like to thank anonymous reviewers for their valuable feedback. The ``finding'' box in the paper is borrowed from [this paper](https://arxiv.org/abs/2104.08835).
 
 
 
