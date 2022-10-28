@@ -1,6 +1,6 @@
 # Exploring Mode Connectivity for Pre-trained Language Models
 
-This is the implementation of our EMNLP 2022 paper **Exploring Mode Connectivity for Pre-trained Language Models**.
+This is the implementation of our EMNLP 2022 paper [Exploring Mode Connectivity for Pre-trained Language Models](https://arxiv.org/pdf/2210.14102.pdf).
 
 
 
